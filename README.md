@@ -13,3 +13,9 @@ I used an ESP8266 and mounted it inside the 3D Printed wheelie bin.
 I wired up a Blue LED to pin D3, and the Green LED to pin D2.
 
 Not to sure about my code when it flips between months, but it currently appears to work for the last 2 months (including 2020 leap year)
+
+I also use a number of libraries, including the OTA libraries, secure libraries and the WiFi Manager libraries - so thanks to those contributors!
+
+On very first boot - because I'm using the WiFi libraries - the bindicator will set itself up as a WiFi access point allowing you to connect to it via WiFi, choose the appropriate WiFi Connection, fill in the details etc. When it reboots - it will connect to your WiFi by default.
+
+OTA is enabled - but actually, haven't tested it...
