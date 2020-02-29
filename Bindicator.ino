@@ -37,7 +37,7 @@ const size_t capacity = JSON_ARRAY_SIZE(4) + JSON_OBJECT_SIZE(2) + 4 * JSON_OBJE
 //Because this is HTTPS, I had to get the fingerprint from the Certificate
 const char* fingerprint = "37 D7 90 0D 3B 9F 13 9E 43 D3 B1 C9 AB B8 39 90 6E 1F 5C 7B";
 //Your PostCode Here - remember - this is only for Tewkesbury Borough Council right now!
-String postCode = "gl207rl";
+String postCode = "POSTCODE";
 //This is the REST API that Tewkesbury use
 String url = "/general/rounds/" + postCode + "/nextCollection";
 
